@@ -1,0 +1,1 @@
+gcc -shared -Wl,-soname,apscc -o apscc.so aps_main.c aps_score.c aps_io.c aps_tools.c aps_decide.c aps_assign.c aps_opt.c -lblas -lgfortran -fPIC -O2
